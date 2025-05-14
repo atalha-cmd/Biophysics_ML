@@ -1,5 +1,5 @@
 
-# Biophysics Machine Learning Repository
+# Biophysics Machine Learning
 
 Welcome to the **Biophysics Machine Learning** repository! This repository contains scripts and tools for generating electrostatic and topological features, as well as training Convolutional Neural Networks (CNNs) to analyze biophysical properties using these features.
 
