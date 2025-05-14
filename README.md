@@ -29,7 +29,7 @@ This script calculates electrostatic features for biomolecules, which are essent
 ```bash
 python get_electrostatic_features.py 0 1  # Generate electrostatic features (Arguments: p=0, L=1)
 ```
-### 2. **Topological Features Generation ('run_all.py')** 
+### 2. **Topological Features Generation (`run_all.py`)** 
 
 This script computes topological features, which describe the shape and connectivity of the biomolecules.
 
