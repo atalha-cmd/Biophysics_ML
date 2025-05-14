@@ -12,10 +12,14 @@ This repository includes the following key functionalities:
 
 ## Prerequisites
 
-Before running the scripts, ensure you have the following:
-1. A **Python 3** environment.
-2. A **virtual environment** set up (if not already done).
-3. Required Python packages installed (can be set up in the virtual environment).
+Before running the scripts in this repository, please ensure the following requirements are met:
+1. A **Python** environment.
+2. A set of required packages installed, including:
+
+* Python packages: gudhi, matplotlib, and others (preferably installed within a virtual environment).
+
+* A Fortran compiler, such as gfortran, for running certain numerical routines.
+
 
 ### Scripts Overview
 
