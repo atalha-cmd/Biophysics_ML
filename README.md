@@ -17,7 +17,7 @@ Before running the scripts in this repository, please ensure the following requi
 1.  A **Python** environment.
 2.  A set of required packages installed, including:
 
-    * Python packages: `gudhi`, `matplotlib`, etc.
+    * Python packages: `gudhi`, `matplotlib`, `numpy`, `pandas`, etc.
     * A Fortran compiler, such as `gfortran`, for running certain numerical routines.
 3.  (Recommended) Set up a Python virtual environment to isolate dependencies.
 
