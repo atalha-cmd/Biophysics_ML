@@ -40,6 +40,7 @@ python run_all.py  # Generate topological features
 ### 3. **CNN Model Training** 
 
 This script runs multiple CNN models using both electrostatic and topological features. It includes cross-validation for performance evaluation.
+
 **Train CNN using both electrostatic and topological features:**
 ```bash
 python CNNbothCV.py 0 1 5  # Run CNN with both features and cross-validation
@@ -48,8 +49,8 @@ python CNNbothCV.py 0 1 5  # Run CNN with both features and cross-validation
 ```bash
 python CNNelectro.py 0 1 5  # Run CNN with only electrostatic features and cross-validation
 ```
-**Train CNN using both electrostatic and topological features:**
+**Train CNN using only topological features:**
 ```bash
-python CNNbothCV.py 0 1 5  # Run CNN with both features and cross-validation
+python CNNtopologicalCV.py 5  # Run CNN with only topological features and cross-validation
 ```
 
