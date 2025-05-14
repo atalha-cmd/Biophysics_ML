@@ -17,15 +17,7 @@ Before running the scripts, ensure you have the following:
 2. A **virtual environment** set up (if not already done).
 3. Required Python packages installed (can be set up in the virtual environment).
 
-### Setting Up the Virtual Environment
-```bash
-# Create a virtual environment
-python -m venv /path/to/your/venv
-
-# Activate the virtual environment
-source /path/to/your/venv/bin/activate
-
-## Scripts Overview
+### Scripts Overview
 
 This repository includes several scripts designed for generating features and training machine learning models for biophysics research. Below is a summary of each script's purpose and how to use them.
 
