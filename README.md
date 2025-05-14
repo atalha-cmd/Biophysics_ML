@@ -26,19 +26,30 @@ This repository includes several scripts designed for generating features and tr
 This script calculates electrostatic features for biomolecules, which are essential for understanding their interaction with the environment.
 
 **Usage:**
+```bash
 python get_electrostatic_features.py 0 1  # Generate electrostatic features (Arguments: p=0, L=1)
-
+```
 ### 2. **Topological Features Generation ('run_all.py')** 
 
 This script computes topological features, which describe the shape and connectivity of the biomolecules.
 
 **Usage:**
+```bash
 python run_all.py  # Generate topological features
-
+```
 ### 3. **CNN Model Training** 
 
 This script runs multiple CNN models using both electrostatic and topological features. It includes cross-validation for performance evaluation.
-**Usage:**
-python run_all.py  # Generate topological features
- 
+**Train CNN using both electrostatic and topological features:**
+```bash
+python CNNbothCV.py 0 1 5  # Run CNN with both features and cross-validation
+```
+**Train CNN using only electrostatic features:**
+```bash
+python CNNelectro.py 0 1 5  # Run CNN with only electrostatic features and cross-validation
+```
+**Train CNN using both electrostatic and topological features:**
+```bash
+python CNNbothCV.py 0 1 5  # Run CNN with both features and cross-validation
+```
 
