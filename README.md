@@ -24,3 +24,17 @@ python -m venv /path/to/your/venv
 
 # Activate the virtual environment
 source /path/to/your/venv/bin/activate
+
+## Scripts Overview
+
+This repository includes several scripts designed for generating features and training machine learning models for biophysics research. Below is a summary of each script's purpose and how to use them.
+
+### 1. **Electrostatic Features Generation (`get_electrostatic_features.py`)**
+
+This script calculates electrostatic features for biomolecules, which are essential for understanding their interaction with the environment.
+
+**Usage:**
+```bash
+source /users/atalha/.venv/bin/activate  # Activate the virtual environment
+python get_electrostatic_features.py 0 1  # Generate electrostatic features (Arguments: p=0, L=1)
+
