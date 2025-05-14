@@ -30,3 +30,12 @@ This script calculates electrostatic features for biomolecules, which are essent
 source /users/atalha/.venv/bin/activate  # Activate the virtual environment
 python get_electrostatic_features.py 0 1  # Generate electrostatic features (Arguments: p=0, L=1)
 
+### 2. **Topological Features Generation (run_all.py)** 
+
+This script calculates electrostatic features for biomolecules, which are essential for understanding their interaction with the environment.
+
+**Usage:**
+```bash
+source /users/atalha/.venv/bin/activate  # Activate the virtual environment
+python get_electrostatic_features.py 0 1  # Generate electrostatic features (Arguments: p=0, L=1) 
+
